@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/recursos/fondo.jpg");
+    color: white;
+}
+.header {
+    width: 100%;
+    height: auto;
+}
+.header__title {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+.container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+.container__img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.container__form {
+    border: 0.2rem solid;
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+.form__camp-lend {
+    width: 100%;
+}
+@media (min-width: 600px) {
+    
+}
