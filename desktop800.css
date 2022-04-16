@@ -1,0 +1,19 @@
+.header__title {
+    font-size: 7rem;
+}
+.container__text {
+    font-size: 3rem;
+}
+.container__title {
+    font-size: 5rem;
+}
+.container__form {
+    height: auto;
+    padding: 1.5rem;
+}
+.form__name, .form__data{
+    font-size: 4rem;
+}
+.form__camp-lend {
+    height: 4rem;
+}

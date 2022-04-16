@@ -1,0 +1,30 @@
+body {
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.header__title {
+    font-size: 6rem;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container__title {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+.container__text {
+    margin-bottom: 5rem;
+}
+.container__all-form {
+    width: 100%;
+}
