@@ -11,12 +11,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    margin-top: 1rem;
     background-image: url("/recursos/fondo.jpg");
+    background-repeat: no-repeat;
     color: white;
 }
 .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: auto;
 }
@@ -31,9 +36,18 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.container__title {
+    font-size: 3rem;
+}
 .container__img {
     max-width: 100%;
     margin-bottom: 1rem;
+}
+.container__all-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 .container__form {
     border: 0.2rem solid;
@@ -43,7 +57,81 @@ body {
 }
 .form__camp-lend {
     width: 100%;
+    background-color: white;
 }
 @media (min-width: 600px) {
-    
+    .header__title {
+        font-size: 5rem;
+    }
+    .container__text {
+        font-size: 2rem;
+    }
+    .container__title {
+        font-size: 4rem;
+    }
+    .container__form {
+        height: auto;
+        padding: 1.5rem;
+    }
+    .form__name, .form__data{
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        background-image: url("/recursos/fondo-2.jpg");
+    }
+    .header__title {
+        font-size: 7rem;
+    }
+    .container__text {
+        font-size: 3rem;
+    }
+    .container__title {
+        font-size: 5rem;
+    }
+    .container__form {
+        height: auto;
+        padding: 1.5rem;
+    }
+    .form__name, .form__data{
+        font-size: 4rem;
+    }
+    .form__camp-lend {
+        height: 4rem;
+    }
+
+}
+@media (min-width: 1200px) {
+    body {
+        flex-direction: row;
+        background-image: url("/recursos/fondo-3.jpg");
+        background-repeat: no-repeat;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .header__title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 80%;
+        justify-content: center;
+    }
+    .container__title {
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+    .container__text {
+        margin-bottom: 5rem;
+    }
+    .container__all-form {
+        width: 100%;
+    }
 }
