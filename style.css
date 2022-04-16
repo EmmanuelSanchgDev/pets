@@ -104,6 +104,9 @@ body {
 
 }
 @media (min-width: 1200px) {
+    body {
+        flex-direction: row;
+    }
     .header {
         display: flex;
         flex-direction: column;
