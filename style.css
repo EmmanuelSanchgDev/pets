@@ -59,6 +59,9 @@ body {
     width: 100%;
     background-color: white;
 }
+.foo {
+    text-align: center;
+}
 @media (min-width: 600px) {
     body {
         background-image: url("https://i.ibb.co/B38sQ8K/fondo-3.jpg");
