@@ -80,6 +80,7 @@ body {
 @media (min-width: 800px) {
     body {
         background-image: url("https://i.ibb.co/kHSZRWn/fondo-2.jpg");
+        background-repeat: repeat;
     }
     .header__title {
         font-size: 7rem;
